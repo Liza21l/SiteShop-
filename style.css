@@ -1,0 +1,140 @@
+header{
+    display: flex;
+    width: 100%;
+    height: 65px;
+    background-color: black;
+}
+nav>div{ 
+    display:flex;
+    align-items: center;
+}
+
+.Flag{
+    width: 27px;
+    height: 14px;
+    margin-left: 980px;
+}
+.p-Text{
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: 59px;
+}
+.p-border{
+    border-color: #C7C7C7;
+    width: 200px;
+    height: 400px;
+
+}
+.Border{
+    width: 200px;
+    height: 50px;
+    background-color: #D1C0F5;
+    border: none;
+    margin-bottom: 31px;
+    margin-left: 100px;
+}
+.searchInput{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 420px;
+    border-radius: 5px;
+    margin-top: 175px;
+    border-color: #C7C7C7;
+    width: 300px;
+    height: 36px;
+
+}
+.btn{
+    margin-top: 175px;
+    background-color: #A676E2;
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 25%;
+    margin-left: 350px;
+    margin-top: -535px;
+}
+.Box{
+    width: 200px;
+    height: 400px;
+    background: #FFFFFF;
+    border: 1px solid #C7C7C7;
+    margin-left: 100px;
+
+}
+.PText{
+    width: 200px;
+    height: 50px;
+    background-color: #D1C0F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin-left: 100px;
+}
+.Call{
+    margin-left: 200px;
+}
+.block{
+    margin-top: 252px;
+    margin-left: -554px;
+    margin-right: 165px;
+    padding-left: 49px;
+    padding-top: 111px;
+    width: 900px;
+    height: 300px;
+    background: url(./store\ 1.svg);    
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.block>button{
+    margin-top: 110px;
+    width: 120px;
+    height: 50px;
+    background: #A676E2;
+    border-radius: 2px;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+}
+.block>p{
+    width: 247;
+    margin-top: 40px;
+}
+a{
+    text-decoration: none;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+}
+.nav-item>a{
+    font-size: 21px;
+    color: black;
+}
+.sub-nav{
+    display: none;
+    position: absolute;
+    width: 120px;
+    padding: 10px;
+    background-color: #D1C0F5;
+    border: 1px solid black;
+}
+.sub-item{
+    margin-top: 5%;
+}
+.sub-item>a{
+    color: black;
+    font-size: 18px;
+}
+li>a:hover + ul{
+    display: block;
+}
